@@ -1,0 +1,9 @@
+Group,Category Name,Standard Columns
+1007,PUMPS & ROTATING EQUIPMENT SPARES,brand; model; manufacturer; size; additional
+1010,BEARINGS & POWER TRANSMISSION,brand; model; part_number; size; material; specification; additional
+1025,VALVES & PIPING ACCESSORIES,brand; drawing_number; manufacturer; material; size; specification; additional
+1050,ELECTRICAL MOTORS & DRIVES,brand; model; voltage; power; speed; frame; additional
+1060,SWITCHGEAR & CONTROLGEAR,brand; model; part_number; voltage; current_rating; specification; additional
+1080,FASTENERS & HARDWARE,material; size; specification; finish; additional
+1100,PRESSURE & TEMPERATURE INSTRUMENTS,brand; model; range; connection_size; mounting; material; additional
+1120,GASKETS & SEALING,brand; size; rating; material; thickness; specification; additional

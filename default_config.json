@@ -1,0 +1,311 @@
+{
+  "sheet_mappings": {
+    "material_master_sheets": [
+      "Material Master",
+      "Material_Master",
+      "MaterialMaster",
+      "Materials",
+      "Material_Master_Data",
+      "Sheet1"
+    ],
+    "standardisation_sheets": [
+      "Standardisation",
+      "Standardization",
+      "Standard_Columns",
+      "Standards",
+      "Sheet2"
+    ]
+  },
+  "column_mappings": {
+    "material_master": {
+      "material_code": [
+        "Material Code",
+        "MaterialCode",
+        "Material_Code",
+        "Mat Code",
+        "Item Code",
+        "Material",
+        "Code"
+      ],
+      "short_description": [
+        "Short Description",
+        "ShortDescription",
+        "Short_Description",
+        "Short Desc",
+        "Short_Desc",
+        "Description"
+      ],
+      "long_description": [
+        "Long Description",
+        "LongDescription",
+        "Long_Description",
+        "Long Desc",
+        "Long_Desc",
+        "Detailed Description"
+      ],
+      "group_number": [
+        "Proposed Material Group",
+        "Proposed_Material_Group",
+        "Material Group",
+        "Material_Group",
+        "Group Number",
+        "Group_Number",
+        "Group",
+        "Proposed Group"
+      ],
+      "group_description": [
+        "Proposed Material Group Desc",
+        "Proposed_Material_Group_Desc",
+        "Material Group Desc",
+        "Group Desc",
+        "Category Name",
+        "Proposed Material Group Description"
+      ]
+    },
+    "standardisation": {
+      "group": [
+        "Group",
+        "Material Group",
+        "Material_Group",
+        "Group Number",
+        "Group_Number",
+        "Group Code"
+      ],
+      "category_name": [
+        "Category Name",
+        "Category_Name",
+        "Category",
+        "Group Name",
+        "Group Description"
+      ],
+      "standard_columns": [
+        "Standard Columns",
+        "Standard_Columns",
+        "StandardColumns",
+        "Columns",
+        "Attributes"
+      ]
+    }
+  },
+  "options": {
+    "fallback_to_short_desc": false,
+    "case_sensitive_values": false,
+    "trim_whitespace": true,
+    "include_unmatched_property_if_no_additional": true
+  },
+  "delimiters": [
+    ";",
+    ",",
+    "\n",
+    "|",
+    "/"
+  ],
+  "key_value_separators": [
+    ":",
+    "=",
+    " - ",
+    " -- "
+  ],
+  "global_aliases": {
+    "brand": [
+      "brand",
+      "make",
+      "mfr brand",
+      "brnd",
+      "brand name"
+    ],
+    "model": [
+      "model",
+      "model no",
+      "model number",
+      "mod no",
+      "mod number",
+      "model#",
+      "mod#",
+      "mdl"
+    ],
+    "manufacturer": [
+      "manufacturer",
+      "mfr",
+      "mfg",
+      "maker",
+      "oem",
+      "producer"
+    ],
+    "part_number": [
+      "part number",
+      "part no",
+      "part#",
+      "p/n",
+      "pn",
+      "p.no",
+      "cat no",
+      "catalog no",
+      "item no",
+      "item part no"
+    ],
+    "drawing_number": [
+      "drawing number",
+      "drawing no",
+      "drg no",
+      "drgno",
+      "dgno",
+      "dno",
+      "dwg no",
+      "dwg#",
+      "drg#"
+    ],
+    "material": [
+      "material",
+      "matl",
+      "mat",
+      "moc",
+      "construction",
+      "body material"
+    ],
+    "size": [
+      "size",
+      "dimension",
+      "dimensions",
+      "dim",
+      "dims",
+      "bore",
+      "diameter",
+      "od",
+      "id",
+      "rating/size"
+    ],
+    "rating": [
+      "rating",
+      "pressure rating",
+      "class rating",
+      "pressure class"
+    ],
+    "specification": [
+      "specification",
+      "spec",
+      "specs",
+      "standard",
+      "grade",
+      "class",
+      "std"
+    ],
+    "voltage": [
+      "voltage",
+      "volt",
+      "volts",
+      "rating voltage",
+      "operating voltage"
+    ],
+    "power": [
+      "power",
+      "power rating",
+      "rating power",
+      "wattage"
+    ],
+    "speed": [
+      "speed",
+      "rpm",
+      "rotational speed"
+    ],
+    "pressure": [
+      "pressure",
+      "working pressure",
+      "rating pressure"
+    ],
+    "capacity": [
+      "capacity",
+      "flow rate",
+      "volume"
+    ],
+    "color": [
+      "color",
+      "colour"
+    ],
+    "weight": [
+      "weight",
+      "wt",
+      "mass"
+    ],
+    "serial_number": [
+      "serial number",
+      "serial no",
+      "sr no",
+      "srno",
+      "s/n",
+      "sn"
+    ]
+  },
+  "patterns": {
+    "size": [
+      "\\b\\d+(?:\\.\\d+)?\\s*[xX*]\\s*\\d+(?:\\.\\d+)?(?:\\s*[xX*]\\s*\\d+(?:\\.\\d+)?)?(?:\\s*(?:mm|cm|m|inch|in|\"))?\\b",
+      "\\b\\d+(?:/\\d+)?\\s*(?:inch|in|\")\\b",
+      "\\b(?:DN|NB|OD|ID|PN)\\s*\\d+(?:\\.\\d+)?(?:\\s*mm)?\\b",
+      "\\b\\d+(?:\\.\\d+)?\\s*(?:mm|cm|inch|in|\")\\b",
+      "\\b\\d+#\\s*(?:RF|FF|RTJ)?\\b"
+    ],
+    "voltage": [
+      "\\b\\d+(?:\\.\\d+)?\\s*(?:KV|kv|V|v|VAC|vac|VDC|vdc)\\b"
+    ],
+    "power": [
+      "\\b\\d+(?:\\.\\d+)?\\s*(?:KW|kw|HP|hp|MW|mw|W|w)\\b"
+    ],
+    "speed": [
+      "\\b\\d+\\s*(?:RPM|rpm)\\b"
+    ],
+    "pressure": [
+      "\\b\\d+(?:\\.\\d+)?\\s*(?:PSI|psi|BAR|bar|KG/CM2|kg/cm2)\\b"
+    ]
+  },
+  "known_values": {
+    "material": [
+      "SS304",
+      "SS316",
+      "SS316L",
+      "SS321",
+      "CARBON STEEL",
+      "MILD STEEL",
+      "CAST IRON",
+      "DUCTILE IRON",
+      "BRASS",
+      "BRONZE",
+      "ALUMINUM",
+      "PTFE",
+      "PVC",
+      "UPVC",
+      "CPVC",
+      "COPPER",
+      "TITANIUM",
+      "HASTELLOY",
+      "INCONEL",
+      "MONEL",
+      "RUBBER",
+      "NITRILE",
+      "VITON",
+      "NEOPRENE",
+      "EPDM",
+      "WCB",
+      "CF8",
+      "CF8M"
+    ]
+  },
+  "group_rules": {
+    "1007": {
+      "description": "Rules for Group 1007 - supports positional extraction for PMC style tokens",
+      "allow_positional_extraction": true,
+      "positional_mapping": [
+        "brand",
+        "model",
+        "size"
+      ],
+      "aliases": {
+        "brand": ["brand", "make", "mfg"],
+        "model": ["model", "mod", "type"]
+      },
+      "patterns": {
+        "model": "^[0-9]{4,8}$",
+        "brand": "^[a-zA-Z]{2,12}$"
+      }
+    }
+  }
+}
