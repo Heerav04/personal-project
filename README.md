@@ -262,3 +262,5 @@ Run the full test suite using Python's `unittest`:
 .\.venv\Scripts\python -m unittest discover tests
 ```
 All 19 tests verify configuration loading, normalizers, group definition parsing, conservative extraction, ambiguity resolution, and end-to-end execution.
+#   p e r s o n a l - p r o j e c t  
+ 
